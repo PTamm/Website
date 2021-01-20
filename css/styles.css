@@ -1,0 +1,28 @@
+*,
+*::before,
+*::after {
+  box-sizing: inheret;
+}
+
+/* GLOBAL VARIABLES */
+
+/* GENERAL VARIABLES (NO ID OR CLASS) */
+
+html {
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* FONTS AND LAYOUTS */
+
+.site-title {
+}
+
+.section {
+}
+
+.section-title {
+}
+/* BUTTONS */
+
+/* FORMS */
