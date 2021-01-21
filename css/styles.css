@@ -7,10 +7,10 @@
 /* GLOBAL VARIABLES */
 
 :root {
-  --clr-secondary: rgb(32, 32, 32);
-  --clr-primary: rgb(9, 199, 212);
+  --clr-secondary: rgb(41, 41, 41);
+  --clr-primary: rgb(73, 231, 52);
   --clr-text-secondary: white;
-  --clr-tertiary: grey;
+  --clr-accent: yellow;
 }
 
 /* GENERAL VARIABLES (NO ID OR CLASS) */
@@ -40,7 +40,13 @@ nav a {
 
 nav a:hover,
 nav a:focus {
-  color: var(--clr-primary);
+  color: var(--clr-accent);
+}
+
+p {
+  line-height: 1.5em;
+  max-width: 75ch;
+  font-size: 1.25em;
 }
 
 /* FONTS AND LAYOUTS */
@@ -50,16 +56,33 @@ nav a:focus {
 }
 
 .site-title.main {
-  color: var(--clr-text-secondary);
   font-style: italic;
   text-align: center;
 }
 
-.section {
+.section-welcome {
+  /* background-image: url("../Pictures/patrick.jpg"); */
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  padding: 1em 1em;
+  background-color: var(--clr-secondary);
+}
+
+.section-welcome-text {
+  /* padding: 5em 5em; */
+  color: var(--clr-text-secondary);
+}
+
+.section-about {
+  background-image: url("../Pictures/patrick.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .section-title {
+  color: var(--clr-primary);
 }
+
 /* BUTTONS */
 
 /* FORMS */
