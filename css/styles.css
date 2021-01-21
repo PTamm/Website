@@ -6,6 +6,13 @@
 
 /* GLOBAL VARIABLES */
 
+:root {
+  --clr-secondary: rgb(32, 32, 32);
+  --clr-primary: rgb(9, 199, 212);
+  --clr-text-secondary: white;
+  --clr-tertiary: grey;
+}
+
 /* GENERAL VARIABLES (NO ID OR CLASS) */
 
 html {
@@ -13,9 +20,39 @@ html {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+header {
+  background-color: var(--clr-secondary);
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  justify-content: space-around;
+}
+
+nav a {
+  color: var(--clr-text-secondary);
+  display: inline-block;
+  padding: 0.5em;
+}
+
+nav a:hover,
+nav a:focus {
+  color: var(--clr-primary);
+}
+
 /* FONTS AND LAYOUTS */
 
 .site-title {
+  color: var(--clr-primary);
+}
+
+.site-title.main {
+  color: var(--clr-text-secondary);
+  font-style: italic;
+  text-align: center;
 }
 
 .section {
