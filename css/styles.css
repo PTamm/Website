@@ -49,21 +49,25 @@ p {
   font-size: 1.25em;
 }
 
+h3 {
+  font-size: 2em;
+  color: var(--clr-secondary);
+}
+
 /* FONTS AND LAYOUTS */
 
 .site-title {
+  font-size: 5em;
   color: var(--clr-primary);
 }
 
 .site-title.main {
+  font-size: 4em;
   font-style: italic;
   text-align: center;
 }
 
 .section-welcome {
-  /* background-image: url("../Pictures/patrick.jpg"); */
-  /* background-repeat: no-repeat; */
-  /* background-size: cover; */
   padding: 1em 1em;
   background-color: var(--clr-secondary);
 }
@@ -74,13 +78,23 @@ p {
 }
 
 .section-about {
-  background-image: url("../Pictures/patrick.jpg");
+  /* background-image: url("../Pictures/patrick.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
 }
 
 .section-title {
+  font-size: 2.5em;
   color: var(--clr-primary);
+}
+
+.section-about-history {
+  text-align: right;
+}
+
+.profile-image {
+  float: left;
+  padding: 1.5em 1em;
 }
 
 /* BUTTONS */
