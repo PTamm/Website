@@ -50,7 +50,7 @@ p {
 }
 
 h3 {
-  font-size: 2em;
+  font-size: 1.5em;
   color: var(--clr-secondary);
 }
 
@@ -89,7 +89,6 @@ h3 {
 }
 
 .section-about-history {
-  text-align: right;
 }
 
 .profile-image {
